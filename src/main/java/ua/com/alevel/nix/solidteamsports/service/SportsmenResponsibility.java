@@ -2,18 +2,10 @@ package ua.com.alevel.nix.solidteamsports.service;
 
 import ua.com.alevel.nix.solidteamsports.data.Audience;
 
-public class SportsmenResponsibility {
+public interface SportsmenResponsibility {
+    void getOnField(Audience audience);
 
-    public void getOnField(Audience audience){
-        System.out.println("Выход спортсменов на поле");
-    }
+    void playFirstHalf(Audience audience);
 
-    public void playFirstHalf(Audience audience){
-        System.out.println("Спортсмены играют первый тайм");
-    }
-
-    public void playSecondHalf(Audience audience){
-        System.out.println("Спортсмены играют второй тайм");
-
-    }
+    void playSecondHalf(Audience audience);
 }
