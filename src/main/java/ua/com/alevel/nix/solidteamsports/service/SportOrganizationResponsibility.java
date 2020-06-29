@@ -1,4 +1,4 @@
-package ua.com.alevel.nix.solidteamsports;
+package ua.com.alevel.nix.solidteamsports.service;
 
 import ua.com.alevel.nix.solidteamsports.data.Audience;
 import ua.com.alevel.nix.solidteamsports.data.Sportsmen;
@@ -11,7 +11,7 @@ public class SportOrganizationResponsibility {
         System.out.println("Сбор аудитории");
         System.out.println("Сбор спортсменов");
         System.out.println("Объявление состава команд");
-    };
+    }
 
     public void arbitration(Sportsmen sportsmen){
         System.out.println("Арбитраж");

@@ -1,4 +1,4 @@
-package ua.com.alevel.nix.solidteamsports;
+package ua.com.alevel.nix.solidteamsports.service;
 
 import ua.com.alevel.nix.solidteamsports.data.Audience;
 
