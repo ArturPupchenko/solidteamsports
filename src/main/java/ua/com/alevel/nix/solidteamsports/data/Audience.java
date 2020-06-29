@@ -1,4 +1,6 @@
 package ua.com.alevel.nix.solidteamsports.data;
 
-public class Audience {
+import ua.com.alevel.nix.solidteamsports.data.abstr.SportEventViewers;
+
+public class Audience implements SportEventViewers {
 }

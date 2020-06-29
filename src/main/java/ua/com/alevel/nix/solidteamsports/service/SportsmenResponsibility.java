@@ -1,8 +1,9 @@
 package ua.com.alevel.nix.solidteamsports.service;
 
 import ua.com.alevel.nix.solidteamsports.data.Audience;
+import ua.com.alevel.nix.solidteamsports.data.abstr.SportEventViewers;
 
-public interface SportsmenResponsibility {
+public interface SportsmenResponsibility <L extends SportEventViewers> {
     void getOnField(Audience audience);
 
     void playFirstHalf(Audience audience);
