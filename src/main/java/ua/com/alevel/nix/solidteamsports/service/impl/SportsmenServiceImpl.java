@@ -11,6 +11,7 @@ public class SportsmenServiceImpl implements SportsmenService {
     private SportsmenResponsibility sportsmenResponsibility = new SportsmenResponsibilityImpl();
     private SportOrganizationResponsibility sportOrganizationResponsibility = new SportOrganizationResponsibilityImpl();
 
+    @Override
     public void startGame(Sportsmen sportsmen, Audience audience){
         sportOrganizationResponsibility.organizationOfTournament(sportsmen,audience);
         sportsmenResponsibility.getOnField(audience);
