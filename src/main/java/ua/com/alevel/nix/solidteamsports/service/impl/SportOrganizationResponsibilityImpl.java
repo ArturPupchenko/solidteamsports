@@ -14,7 +14,7 @@ public class SportOrganizationResponsibilityImpl implements SportOrganizationRes
     public void organizationOfTournament(Sportsmen sportsmen, Audience audience){
         System.out.println("Оргнизация этапа турнира");
         System.out.println("Подготовка арены");
-        gameArenaService.checkArena();
+        gameArenaService.isReady();
         System.out.println("Сбор аудитории");
         System.out.println("Сбор спортсменов");
         System.out.println("Объявление состава команд");
