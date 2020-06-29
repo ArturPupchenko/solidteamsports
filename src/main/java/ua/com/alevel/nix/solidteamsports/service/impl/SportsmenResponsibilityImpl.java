@@ -3,7 +3,7 @@ package ua.com.alevel.nix.solidteamsports.service.impl;
 import ua.com.alevel.nix.solidteamsports.data.Audience;
 import ua.com.alevel.nix.solidteamsports.service.SportsmenResponsibility;
 
-public class SportsmenResponsibilityImpl implements SportsmenResponsibility {
+public class SportsmenResponsibilityImpl implements SportsmenResponsibility<Audience> {
 
     @Override
     public void getOnField(Audience audience){

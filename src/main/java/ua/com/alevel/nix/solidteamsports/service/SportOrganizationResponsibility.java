@@ -2,13 +2,15 @@ package ua.com.alevel.nix.solidteamsports.service;
 
 import ua.com.alevel.nix.solidteamsports.data.Audience;
 import ua.com.alevel.nix.solidteamsports.data.Sportsmen;
+import ua.com.alevel.nix.solidteamsports.data.abstr.SportEventViewers;
 
-public interface SportOrganizationResponsibility {
-    void organizationOfTournament(Sportsmen sportsmen, Audience audience);
+public interface SportOrganizationResponsibility <L extends SportEventViewers> {
+
+    void organizationOfTournament(Sportsmen sportsmen, L l);
 
     void arbitration(Sportsmen sportsmen);
 
-    void makeBreak(Sportsmen sportsmen, Audience audience);
+    void makeBreak(Sportsmen sportsmen, L l);
 
-    void announcementOfResults(Sportsmen sportsmen, Audience audience);
+    void announcementOfResults(Sportsmen sportsmen, L l);
 }

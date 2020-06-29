@@ -4,7 +4,7 @@ import ua.com.alevel.nix.solidteamsports.data.Audience;
 import ua.com.alevel.nix.solidteamsports.data.Sportsmen;
 import ua.com.alevel.nix.solidteamsports.service.SportOrganizationResponsibility;
 
-public class SportOrganizationResponsibilityImpl implements SportOrganizationResponsibility {
+public class SportOrganizationResponsibilityImpl implements SportOrganizationResponsibility<Audience> {
 
     @Override
     public void organizationOfTournament(Sportsmen sportsmen, Audience audience){

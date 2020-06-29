@@ -6,7 +6,7 @@ import ua.com.alevel.nix.solidteamsports.service.SportOrganizationResponsibility
 import ua.com.alevel.nix.solidteamsports.service.SportsmenResponsibility;
 import ua.com.alevel.nix.solidteamsports.service.SportsmenService;
 
-public class SportsmenServiceImpl implements SportsmenService {
+public class SportsmenServiceImpl implements SportsmenService<Audience> {
 
     private SportsmenResponsibility sportsmenResponsibility = new SportsmenResponsibilityImpl();
     private SportOrganizationResponsibility sportOrganizationResponsibility = new SportOrganizationResponsibilityImpl();
